@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cruso PHP
 
 Para entrar no grupo oficial do Curso de PHP basta seguir o link [https://www.facebook.com/events/1045083332276749/](https://www.facebook.com/events/1045083332276749/), lembrando que só é permitido postagens e discussões sobre dúvidas e/ou assuntos pertinentes ao curso, aquele que não respeitar essas regras será banido.
@@ -56,3 +57,6 @@ ao vivo.
 Qualquer dúvida em relação a este curso, basta me chamar no twitter [https://www.twitter.com/chocsx](@chocsx)
 
 **LETS CODE**
+=======
+# Curso PHP
+>>>>>>> 8f4f82251c69cd1726dd86229f46fe7328cde009
