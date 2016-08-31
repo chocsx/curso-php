@@ -1,4 +1,4 @@
-# Cruso PHP
+# Curso PHP
 
 Para entrar no grupo oficial do Curso de PHP basta seguir o link [https://www.facebook.com/events/1045083332276749/](https://www.facebook.com/events/1045083332276749/), lembrando que só é permitido postagens e discussões sobre dúvidas e/ou assuntos pertinentes ao curso, aquele que não respeitar essas regras será banido.
 
