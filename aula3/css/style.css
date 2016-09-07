@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+.butao{
+  padding: 5px 15px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.btn-success{
+  background-color: green;
+  color: white;
+}
+.btn-editar{
+  background-color: orangered;
+  color: #FFF;
+}
+.btn-excluir{
+  background-color: red;
+  color: #FFF;
+}
+.tarefas{
+
+}
+.tarefas ul{
+
+}
+.tarefas ul li{
+  margin: 15px 0px;
+  padding: 10px;
+
+}
+
+.tarefas ul li span{
+  float:left;
+}
+.tarefas ul li a{
+  text-decoration: none;
+  float:right;
+}
