@@ -4,7 +4,7 @@
   <div class="panel-body">
     <h1>Lista de Tarefas: Mateus</h1>
     <div class="formulario">
-      <form class="formTarega form-horizontal" action="saveTarefa.php" method="post">
+      <form class="formTarefa form-horizontal" action="saveTarefa.php" method="post">
 
       <div class="form-group">
         <label for="tarefa" class="col-sm-3 control-label">Tarefa</label>
