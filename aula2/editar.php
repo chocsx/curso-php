@@ -17,7 +17,7 @@ $result = mysql_fetch_array($query);
     <div class="formulario">
       <form class="formTarefa" action="updateTarefa.php" method="post">
           <label for="tarefa">Tarefa</label>
-          <input type="hidden" name="id" value="<?= $result['tarefa'] ?>">
+          <input type="hidden" name="id" value="<?= $result['id'] ?>">
           <input type="text" name="tarefa" id="tarefa" value="<?= $result['tarefa'] ?>">
           <input type="submit"  value="enviar">
       </form>
