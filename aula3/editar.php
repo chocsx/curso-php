@@ -5,22 +5,23 @@ $id = $_GET['id'];
 $query = @mysql_query("SELECT * FROM tarefas WHERE id = '$id'") or die(mysql_error());
 $result = mysql_fetch_array($query);
 ?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarefa: <?= $result['tarefa'] ?></title>
-    <link rel="stylesheet" href="./css/style.css" media="screen" title="no title">
-  </head>
-  <body>
+
+ <?php include_once("include-header.php"); ?>
+
+ 
     <h2>Tarefa: <?= $result['tarefa'] ?></h2>
-    <div class="formulario">
       <form class="formTarefa" action="updateTarefa.php" method="post">
-          <label for="tarefa">Tarefa</label>
+      <div class="form-group">
+          <label for="tarefa" class="col-sm-3 control-label">Tarefa</label>
           <input type="hidden" name="id" value="<?= $result['id'] ?>">
-          <input type="text" name="tarefa" id="tarefa" value="<?= $result['tarefa'] ?>">
-          <input type="submit"  value="enviar">
+      </div>
+      <div class="form-group col-sm-6 ">
+          <input type="text" name="tarefa" id="tarefa" class="form-control" value="<?= $result['tarefa'] ?>">
+      </div>
+      <div class="form-group">
+          <input type="submit"  value="enviar" class="col-sm-3 btn btn-success">
+      </div>
       </form>
-    </div>
-  </body>
-</html>
+      
+
+  <?php include_once("include-footer.php");?> 
